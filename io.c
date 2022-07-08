@@ -16,6 +16,7 @@ int main(int argc, char **argv)
 
 	void *fptr = &main;
 	printf("fptr 0x%.12"PRIXPTR"\n", (uintptr_t)fptr);
+	printf("0x%08x\n", (uintptr_t)fptr);
 
 	return EXIT_SUCCESS;
 }
